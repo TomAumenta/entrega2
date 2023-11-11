@@ -12,11 +12,17 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <a class="navbar-brand" href="./index.html">
+                    <img class="logo" src="./assets/logo.png" alt="Logo">
+                    CarsRoyale
+                </a>
+        
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+        
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
                         </li>
@@ -33,93 +39,63 @@
                 </div>
             </div>
         </nav>
-        
-        
     </header>
 
-    
     <div class="inicio">
         <h2>Bienvenido a CarsRoyale</h2>
         <p>Distinguidos vendedores de autos.</p>
     </div>
-    
-    <!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="icon" href="./media/logo.png">
-    <title>CarsRoyale</title>
-</head>
-<body>
-    
-    
-        <div class="row mt-5">
-            <div class="col-lg-4">
-                <div class="modelos">
-                
-                    <ul>
-                        <li>
-                            <img class="BmwM3" src="./assets/BmwM3.png" alt="Coche 1">
-                            <a href=".//paginas/Bmw.html"><h3>BMW M3</h3></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="modelos">
-                    <ul>
-                        <li>
-                            <img class="AstonMartin" src="./assets/AstonMartin.png" alt="Coche 2">
-                            <h3>Aston Martin Vanquish</h3>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="modelos">
-                    <ul>
-                        <li>
-                            <img class="MercedesBenz" src="./assets/MercedesBenz.png" alt="Coche 3">
-                            <h3>Mercedes-Benz C300</h3>
-                        </li>
-                    </ul>
-                </div>
+
+    <div class="row mt-5">
+        <div class="col-lg-4">
+            <div class="modelos">
+                <ul>
+                    <li>
+                        <img class="BmwM3 img-fluid" src="./assets/BmwM3.png" alt="Coche 1">
+                        <a href=".//paginas/Bmw.html"><h3>BMW M3</h3></a>
+                    </li>
+                </ul>
             </div>
         </div>
-
-        <section class="mapa_info">
-            <h3>Donde nos encotras:</h3>
-           
+        <div class="col-lg-4">
+            <div class="modelos">
+                <ul>
+                    <li>
+                        <img class="AstonMartin img-fluid" src="./assets/AstonMartin.png" alt="Coche 2">
+                        <h3>Aston Martin Vanquish</h3>
+                    </li>
+                </ul>
             </div>
-        <div class="mapa">
-            <iframe class="mapa_img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.4412202028184!2d-58.43208082349824!3d-34.56770075559816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5a12c181347%3A0xcc951cbda99d485e!2sAv.%20del%20Libertador%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1697319885982!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-       
-       
         </div>
-            <div class="Datos_contacto"> 
-                
-                <p>Ubicación: Av.Libertador 1234</p>
-                <p>Teléfono: 0800</p>
-        
-            </section>
-     
-
-
+        <div class="col-lg-4">
+            <div class="modelos">
+                <ul>
+                    <li>
+                        <img class="MercedesBenz img-fluid" src="./assets/MercedesBenz.png" alt="Coche 3">
+                        <h3>Mercedes-Benz C300</h3>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 
-    
+    <section class="mapa_info">
+        <h3>Donde nos encuentras:</h3>
+    </section>
+
+    <div class="mapa">
+        <iframe class="mapa_img" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.4412202028184!2d-58.43208082349824!3d-34.56770075559816!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5a12c181347%3A0xcc951cbda99d485e!2sAv.%20del%20Libertador%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1697319885982!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div class="Datos_contacto"> 
+        <p>Ubicación: Av.Libertador 1234</p>
+        <p>Teléfono: 0800</p>
+    </div>
 
     <footer>
         <p>CarsRoyale</p>
     </footer>
 
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
-
 </body>
 </html>
